@@ -120,7 +120,9 @@ CREATE TABLE `tbladmin` (
 --
 
 INSERT INTO `tbladmin` (`ID`, `AdminName`, `AdminuserName`, `Password`, `AdminRegdate`) VALUES
-(1, 'Admin User', 'Admin', 'Test@123', '2019-05-17 16:52:45');
+(1, 'Admin User', 'Admin', 'Test@123', '1970-01-01 05:30:00');
+INSERT INTO `tbladmin` (`ID`, `AdminName`, `AdminuserName`, `Password`, `AdminRegdate`) VALUES
+(2, 'Monika Pralayakaveri', 'Monika', 'Moni', NOW());
 
 --
 -- Indexes for dumped tables

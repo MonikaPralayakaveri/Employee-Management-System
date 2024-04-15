@@ -45,7 +45,7 @@ if(isset($_POST['login']))
 <body class="bg-gradient-primary">
 
   <div class="container">
-      <h3 align="center" style="color: black; padding-top: 2%">Employee Managment System</h3>
+      <h3 align="center" style="color: white; padding-top: 2%">Employee Managment System</h3>
 
     <!-- Outer Row -->
     <div class="row justify-content-center">
